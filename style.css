@@ -1,0 +1,236 @@
+*{
+  box-sizing: border-box;
+}
+/* HOME PAGE*/
+.home{
+    margin: 5px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size:1.2em;
+    background-image: url(c.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1{
+  color:darkgreen;
+  text-align: center;
+}
+nav{
+  display: flex;
+  align-items:center;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+}
+.menu{
+  list-style-type: none;
+  display: flex;
+}
+.menu li a{
+  height: 90px;
+  line-height: 100px;
+  margin: 5px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8em;
+  font-family:sans-serif;
+  text-transform: uppercase;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  color:black;
+  border:0.5px solid brown;
+  border-radius: 12px;
+}
+a{
+  text-decoration: none;
+}
+.menu li a:hover{
+  background-color: yellow;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color:lemonchiffon;
+}
+
+/* LOGIN PAGE */
+.loginpage{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:rgb(240, 227, 112);
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:#191919;
+    text-align: center;
+ }
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type="text"],
+.box input[type="password"] {
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #FFD700;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 200px;
+    border-color: #2ecc71;
+}
+
+.box input[type="submit"] {
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background: #2ecc71;
+}
+/* LOGGED IN PAGE */
+ .loggedinpage{  
+    margin: 5px;
+    padding: 5px;
+    text-align:center;
+    font-size:1.2em;
+    background-image: url(c.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  /*  background-size:auto;*/
+ }
+h2{
+  text-align:center;
+  font-family: 'Times New Roman', Times, serif;
+  color:#8B008B;
+  font-weight: 2000;
+}
+.newlinks li{
+  display: inline-block;
+  word-wrap: normal;
+  padding: 0px 20px;
+  list-style-type: none;
+  text-decoration: none;
+
+}
+
+.button{
+  border:none;
+  padding:20px;
+  background-color:#ADD8E6;
+  width:200px;
+  text-align:center;
+  border-radius:12px;
+  color:black;
+}
+
+/* HOSPITAL PAGE */
+.hospitalpage{
+    margin: 5px;
+    padding: 5px;
+    text-align:center;
+    font-size:1.2em;
+    background-image: url(undraw_medicine_b1ol.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+.himg{
+  margin:10px;
+  position: relative;
+  height:200px;
+  width:200px;
+}
+.left{
+  border: 1px solid lightpink;
+  float: left;
+  text-align:center;
+  width:200px;
+  border-radius:50px;
+}
+.right{
+  border: 1px solid lightsalmon;
+  float:right;
+  text-align:center;
+  width:200px;
+  border-radius:50px;
+}
+table  {
+ border: 3px solid lightgreen;
+ width:40%;
+ border-collapse: collapse;
+}
+/* daliy record */
+.dailyrecordpage{
+  margin:5px;
+  padding: 5px;
+  text-align: center;
+  font-size:1.2em;
+}
+.dimg{
+  margin:10px;
+  position: relative;
+  height:200px;
+  width:200px;
+}
+
+/* details and records */
+.record{
+  margin:5px;
+  padding: 5px;
+  text-align: center;
+  font-size:1em;
+  background-image:url(undraw_sleep_analysis_o5f9.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:auto;
+}
+.formbox{
+    width: 380px;
+    padding: 40px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+ }
+
+/* help page */
+.helpbody{
+  font-size:1.2em;
+  text-align: justify;
+  background-image:url(undraw_Notes_re_pxhw.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
